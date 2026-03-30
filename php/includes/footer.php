@@ -13,7 +13,6 @@
             <div class="footer-section">
                 <h4>Documentation BTS SIO</h4>
                 <ul>
-                    <li><a href="documentation.php">Documentation technique</a></li>
                     <li><a href="tests.php">Tests</a></li>
                     <li><a href="rgpd.php">Conformite RGPD</a></li>
                 </ul>

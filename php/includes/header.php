@@ -535,9 +535,8 @@
                 <li><a href="emprunts.php" <?php echo basename($_SERVER['PHP_SELF']) == 'emprunts.php' ? 'class="active"' : ''; ?>>Emprunts</a></li>
                 <li><a href="recherche.php" <?php echo basename($_SERVER['PHP_SELF']) == 'recherche.php' ? 'class="active"' : ''; ?>>Recherche</a></li>
                 <li class="nav-dropdown">
-                    <a href="#" class="dropdown-toggle <?php echo in_array(basename($_SERVER['PHP_SELF']), ['documentation.php', 'tests.php', 'rgpd.php']) ? 'active' : ''; ?>">BTS SIO</a>
+                    <a href="#" class="dropdown-toggle <?php echo in_array(basename($_SERVER['PHP_SELF']), ['tests.php', 'rgpd.php']) ? 'active' : ''; ?>">BTS SIO</a>
                     <ul class="dropdown-menu">
-                        <li><a href="documentation.php">Documentation</a></li>
                         <li><a href="tests.php">Tests</a></li>
                         <li><a href="rgpd.php">RGPD</a></li>
                     </ul>
